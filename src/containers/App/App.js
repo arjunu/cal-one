@@ -1,6 +1,8 @@
 import React from 'react';
 import * as styles from './App.css';
 import Graph from '../../components/graph/Graph';
+import Header from '../Header/Header';
+import SideNav from "../SideNav/SideNav";
 
 export default class App extends React.Component {
 
@@ -16,13 +18,13 @@ export default class App extends React.Component {
             },
             xAxis: {
                 unit: {
-                    x: 8, y:8
+                    x: 8, y: 8
                 },
                 range: [0, 80]
             },
             yAxis: {
                 unit: {
-                    x: 1, y:1
+                    x: 1, y: 1
                 },
                 range: [0, 40]
             }
@@ -39,14 +41,18 @@ export default class App extends React.Component {
     }
 
     render() {
+        const {children} = this.props;
+
         return (
             <div className={styles.appWrapper}>
-                <div className={styles.svgContainer}>
-                   <Graph config={this.state}/>
-                </div>
-                <div className={styles.formControls}>
-
-                </div>
+                <Header/>
+                {/*<SideNav/>*/}
+                {children}
+                {/*<div className={styles.svgContainer}>*/}
+                {/*<Graph config={this.state}/>*/}
+                {/*</div>*/}
+                {/*<div className={styles.formControls}>*/}
+                {/*</div>*/}
             </div>);
     }
 }

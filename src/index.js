@@ -1,4 +1,5 @@
 import * as React from "react";
+import './fonts/FlatIcons/flaticon.css';
 import 'babel-polyfill';
 import {render} from "react-dom";
 import {Provider} from "react-redux";
