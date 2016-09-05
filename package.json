@@ -1,5 +1,5 @@
 {
-  "name": "one-en",
+  "name": "cal-one",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.dev.config.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arjunu/one-en.git"
+    "url": "git+https://github.com/arjunu/cal-one.git"
   },
   "keywords": [],
   "author": "Arjun U. <ar5junu@gmail.com> (http://arjunu.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arjunu/one-en/issues"
+    "url": "https://github.com/arjunu/cal-one/issues"
   },
-  "homepage": "https://github.com/arjunu/one-en#readme",
+  "homepage": "https://github.com/arjunu/cal-one#readme",
   "devDependencies": {
     "babel-core": "^6.9.0",
     "babel-loader": "^6.2.4",
