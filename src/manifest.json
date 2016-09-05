@@ -1,0 +1,11 @@
+{
+  "short_name": "Cal-One",
+  "name": "Cal-One",
+  "start_url": "./?utm_source=web_app_manifest",
+  "icons": [
+  ],
+  "background_color": "#FAFAFA",
+  "theme_color": "#4527A0",
+  "display": "standalone",
+  "orientation": "portrait"
+}

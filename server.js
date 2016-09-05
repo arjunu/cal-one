@@ -6,7 +6,7 @@ new WebpackDevServer(webpack(config), {
     hot: true,
     historyApiFallback: true,
     stats: {colors: true},
-}).listen(5000, 'localhost', function (err) {
+}).listen(5000, "0.0.0.0",  function (err) {
     if (err)
         console.log(err);
     console.log('Listening at localhost:5000');
